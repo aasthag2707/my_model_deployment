@@ -15,7 +15,7 @@ st.set_option('deprecation.showfileUploaderEncoding', False)
 # Load the pickled model
 model = pickle.load(open('logisticmodel.pkl', 'rb')) 
 # Feature Scaling
-dataset = pd.read_csv('Social_Network_Ads.csv')
+dataset = pd.read_csv('Wholesale customers data.csv')
 # Extracting independent variable:
 X = dataset.iloc[:, [1,2,3]].values
 # Encoding the Independent Variable
